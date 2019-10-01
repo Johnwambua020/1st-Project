@@ -1,0 +1,232 @@
+.hero{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://images.pexels.com/photos/2932026/pexels-photo-2932026.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") center center/cover;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    
+    
+}
+nav>ul{
+    text-align: center;
+    justify-content:space-around;
+    display:flex;
+    width: 100%;
+    text-align: right;
+    list-style-type: none;
+    }
+nav>ul>li>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    background-color: beige;
+    width: 700px;
+    margin-left:1000px; 
+}
+a:hover{
+    background-color: blueviolet;
+    font-weight: bold;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+
+}
+.about{
+    font-size: 25px;
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1506143925201-0252c51780b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat/cover;
+    text-emphasis-color: white;
+    width: 75%;
+    margin: 0 auto;
+    
+    
+}
+
+#about{
+    line-height: 1.5em;
+    font-size: 25px;
+    color: maroon;
+    
+   
+}
+
+hr {
+    border-color: blue;
+    
+}
+
+.body{
+    color: black;
+}
+
+/* Styling Activities */
+.activities{
+    background-image:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url("https://www.rd.com/wp-content/uploads/2017/08/02-World%E2%80%99s-Most-Outrageous-Luxury-Hotels-and-Resorts-via-mardanpalace.com_-760x506.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:1000px;
+    font-size: 25px;
+    justify-content: space-between;
+    
+}  
+#activities{
+    
+        margin: 0 10em;
+        
+}
+    
+
+
+
+
+
+#services{
+    display: flex-end;
+    font-size: 25px;
+    margin:10px;
+    color:black;
+
+}
+.Services{
+margin-left: 10px;
+background-image:linear-gradient(rgba(189, 159, 159, 0.7),rgba(255,255,255,0.7)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTT_lpC-ZR6RcJVmuc9cauTvCPxbCX1RmzLNgEgUumQCgcVTfLKQ");
+background-repeat:no-repeat;
+background-size: cover;
+
+}
+
+
+
+
+    
+
+.field {
+    width: 950px;
+    align-content: center;
+    justify-content: center center;
+}
+
+#contacts{
+    list-style-type: none;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:25px;
+    margin: 0 auto;
+    padding-left: 0% auto;
+    justify-content: left;
+
+}
+.form{
+    margin-left : 30%;
+    color:black'
+    
+}
+.bodyform{
+    background-image:url('https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    width:0 auto;
+    height: 1100px;
+    font-size:30px;
+    border: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+input[type=text]{
+    width:500px;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+input[type=email]{
+    width:500px;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+input[type=password]{
+    width:500px;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+input[type=submit]{
+     
+        background-color: rgb(32, 41, 155);
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+    
+
+.roomA {
+    display: flex; 
+    padding: 15px 30px;
+    width: 70%;
+    position:relative;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    margin: 0 auto;
+
+}
+.roomB {
+    display:flex;
+    padding:15px 30px;
+    width: 70%;
+    position:relative;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    margin: 0 auto;
+    
+    
+} 
+.roomC {
+    display:flex;
+    padding: 15px 30px;
+    width: 70%;
+    position:relative;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    margin: 0 auto;
+    
+} 
+
+    
+
+
+.footer{
+    color:blue;
+    font-size:25px;
+    flex:left;
+    text-align: center;
+}
+
+
+
+
+
+
+
